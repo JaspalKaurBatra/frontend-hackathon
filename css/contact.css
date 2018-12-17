@@ -1,0 +1,175 @@
+/* style.css */
+html,body{
+    height:100%;
+    align-content: center;
+    font-family: arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+
+}
+.a{
+    background-image: url('C:\Users\SahithiDuddukuri\Desktop\initializr\monday tool\girl1.jpg');
+
+}
+.parallax { 
+    /* The image used */
+    background-image: url("C:\Users\SahithiDuddukuri\Desktop\initializr\monday tool\girl1.jpg");
+  
+    /* Set a specific height */
+    height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+img{
+   
+    padding: top;
+    float: right;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.nav-main{
+    
+    margin-right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.back{
+    background: transparent url(../img/girl.jpg) no repeat scroll center top;
+ width: 100%;
+ height: 100%;
+ text-align: center;
+}
+
+#cover img
+{
+    
+    background-size: cover;
+    position: relative ;
+    max-width: 100%;
+    max-height: 100%;
+    bottom: 400px;
+    float: center;
+    background-color: black;
+}
+ #cover-caption
+{
+    width: 100%;
+}
+
+h1{
+    color:yellow;
+    align-content: center;
+    position: fixed;
+}
+
+.navbar{
+    position: fixed;
+   background-clip:  color: black;
+}
+
+.nav-item{
+    float: right;
+
+}
+
+footer{
+    background:black;
+    position: fixed;
+    bottom: 0px;
+    width: 2000px;
+    height: 1000px;
+}
+footer img{
+    float: right;
+    padding-top:10px;
+    width: 350px
+    height:50px;
+    bottom:0px;
+   
+}
+figure{
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+}
+.x{
+    background-image: url("../img/girl.jpg");
+    background-color: #cccccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
