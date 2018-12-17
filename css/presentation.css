@@ -1,0 +1,38 @@
+body {
+    background-color:white;
+    text-align: center;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 30;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color:white;
+  }
+  
+  .right {
+    right: 0;
+    background-color: white;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+  
+  .centered img {
+    width: 500px;
+    height: 500px;
+    border-radius: 70%;
+  }
+  
