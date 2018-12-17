@@ -8,3 +8,9 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
+
+
+.page-header{
+    display: block;
+
+}
