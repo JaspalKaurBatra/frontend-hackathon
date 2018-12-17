@@ -4,6 +4,8 @@ body {
     line-height: 1.428571429;
     color: #333333;
     background-color: #fff;
+    width: 70%;
+    margin: auto;
 }
 
 .main {
@@ -57,9 +59,11 @@ a, a:hover, a:focus, .btn:focus, .btn:hover, .btn:active, .btn:active:focus, .bt
 
 .container-img {
   position: relative;
-  background-color: rgba(0,0,0,0.75);
   width: 50%;
-
+  background-color: #ffe6e6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  border: 20px;
 }
 
 .image-img {
@@ -99,15 +103,56 @@ a, a:hover, a:focus, .btn:focus, .btn:hover, .btn:active, .btn:active:focus, .bt
   padding: 16px 32px;
 }
 
+/* card info */
+.card-info{
+    padding: 15px;
+    border-radius: 0 0 12px 12px;
+}
+
+.card-info a:not(.btn) {
+    color: #434343;
+}
+
+.card-info h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.card .time {
+    color: #777777;
+    font-size: 15px;
+    margin-top: 2px;
+    text-transform: uppercase;
+}
+
+.pull-right {
+    float: right;
+}
+
+.card-info p {
+    font-size: 14px;
+    margin: 0;
+    color: #666666;
+    min-height: 50px;
+}
+
+.card .strike, .line-through.strike {
+    text-decoration: line-through;
+    font-size: 16px;
+    color: #777777;
+}
+
+.card .discount-price, .card .discount-price small, .line-through.discount-price {
+    color: #FF281E;
+    font-size: 18px;
+}
+
 
 /* footer */
 
 *, ::after, ::before {
     box-sizing: border-box;
-}
-
-.row {
-  
 }
 
 
