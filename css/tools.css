@@ -2,16 +2,50 @@ html,body{
     margin: auto;
 }
 
-.navbar-nav{
-   display: inline;
-   float: right;
-    font-size: 16px;
+.navbar{
+   border: none;
+   padding-top: 20px;
+   font-size: 20px;
 }
-.nav-item{
-    text-decoration: none;
-    list-style: none;
+.nabar-default{
+    background-color: rgba(255,255,255,0.96);
 }
+.container{
+    padding-right: 15px;
+    padding-left:15px;
+    margin-right: auto;
+    margin-left:auto;
+}
+.illustration
+    {
+        left: -25px;
+        
+        top: -90px;
+        position: absolute;
+        z-index: 1;
+        -webkit-tap-highlight-color: transparent;
+        height: 582px;
+        width: 374px;
+    }
+    .hummer{
+        position: absolute;
+        opacity: 0.02;
+        width: 70%;
+        transform: rotate(100deg);
+        left: -500px;
+        top: 60px;
+        vertical-align: middle;
+    }
+    .pencil{
+        position: absolute;
+        opacity: 0.02;
+        transform: rotate(90deg);
+        left: 350px;
+        top: 100px;
+        vertical-align: middle;
+    }
+    .image-partner.gradient-grey {
+        background: linear-gradient(to bottom right, #b3b1b1 0%, #292929 100%);
+    }
 
-.ul-st{
-    text-decoration: none;
-}
+
