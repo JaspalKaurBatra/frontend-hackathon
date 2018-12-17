@@ -63,7 +63,7 @@ a, a:hover, a:focus, .btn:focus, .btn:hover, .btn:active, .btn:active:focus, .bt
   background-color: #ffe6e6;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: auto;
-  border: 20px;
+  border-radius: 10px;
 }
 
 .image-img {
@@ -90,17 +90,19 @@ a, a:hover, a:focus, .btn:focus, .btn:hover, .btn:active, .btn:active:focus, .bt
 
 .container-img:hover .image-img {
   opacity: 0.3;
+  background-color: black;
 }
 
 .container-img:hover .middle-img {
   opacity: 0.9;
+
 }
 
 .text-img {
-  background-color: #4CAF50;
+  background-color: #e0e0e0;
   color: white;
   font-size: 16px;
-  padding: 16px 32px;
+  border-radius: 10px;
 }
 
 /* card info */
@@ -164,7 +166,7 @@ img {
 
 
 footer>nav>article {
-  color: black;
+  color: gray;
   font-size: 12px;
   padding: 4px;
 }
@@ -178,17 +180,21 @@ footer>nav>article {
 
 .base>a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
  
 .base>a:hover{
-  color: #ff9999;
+  color: gray;
   cursor: pointer;
 }
 
 .base>a>img{
   width:5%;
   margin-left: 50%
+}
+
+.large{
+    font-size: 20px;
 }
 
 .row1 {
@@ -287,4 +293,9 @@ a, a:hover, a:focus, .btn:focus, .btn:hover, .btn:active, .btn:active:focus, .bt
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+.foot{
+    background-color: #696969;
+    color: white;
 }
